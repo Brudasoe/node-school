@@ -1,0 +1,8 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "window.zoomLevel": 0,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 17,
+    "editor.fontLigatures": true
+}
