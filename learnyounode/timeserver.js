@@ -1,8 +1,8 @@
 const net = require("net");
 const pad = require("pad");
 const strftime = require("strftime");
-let date = new Date();
-let currentDate = "";
+const date = new Date();
+const currentDate = "";
 
 function createSocketAndPassDate(socket){
   currentDate = `${strftime('%F %R',date)}
@@ -12,6 +12,6 @@ function createSocketAndPassDate(socket){
 
 }
 
-let server = net.createServer(createSocketAndPassDate);
+const server = net.createServer(createSocketAndPassDate);
 console.log(currentDate)
 server.listen(process.argv[2]);
